@@ -1,0 +1,82 @@
+@media screen and (min-width:600px){
+    img{
+        width: 100px;
+        height: 100px;
+    }
+    #divbg{
+        background-color: blue;
+        width: 100vw;
+        height: 100vh;
+    }
+    #divtext{
+        background-color: green;
+        color: white;
+        width:50vw;
+        height: 50vh;
+    }
+    #div-bg{
+        background-image: url(mountain.png);
+        height: 100px; 
+        width: 250px; 
+        border: 1px solid black; 
+        background-size: cover;
+}  
+
+    #div5{
+        background-color: blue;
+        width:200px;
+        height: 200px;
+        border-radius:50%;
+
+}
+    .lionimg{
+        width: 250px;
+        height: 250px;
+        filter: blur(3px);
+    }
+}
+
+
+@media screen and (max-width:600px){
+
+    img{
+        width: 30px;
+        height: 30px;
+    }
+    #divbg{
+        background-color:red;
+        width: 100vw;
+        height: 100vh;
+    }
+    #divtext{
+        background-color: green;
+        color: yellow;
+        width:50vw;
+        height: 50vh;
+    }
+
+    #div-bg{
+        background-image: url(forest.png);
+            height: 100px; 
+            width: 250px; 
+            border: 1px solid black; 
+            background-size: cover;
+    }  
+
+
+
+    #div5{
+        background-color: red;
+        width:200px;
+        height: 200px;
+        border:1px solid black;
+
+}
+.lionimg{
+    width: 250px;
+    height: 250px;
+    filter: grayscale(1);
+}
+}
+
+
